@@ -1,0 +1,50 @@
+.containerLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;    
+    margin: 30px auto 20px auto;    
+    background-color: #073b72;    
+    border-radius: 50px;
+}
+
+.containerLinks ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 10px;
+}
+
+.containerLinks ul a{
+    font-size: 20px;
+    font-weight: bold;
+    color: #e7edf1;
+    outline: none;
+    text-decoration: none;
+    transition:  0.2s;
+}
+
+.containerLinks ul a:hover{
+    color: #ecd500;
+}
+
+.containerIcons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    gap: 30px;
+    
+    & .icon{
+            transition: transform 0.2s;
+    }
+
+    & .icon:hover{
+        transform: scale(1.5);
+    }
+}
+
+
+
+
+    

@@ -1,0 +1,49 @@
+.containerError{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    gap: 10px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.spanError{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.links a{
+    
+    color: #a7c3fc;
+    font-size: 20px;
+    text-decoration: none;
+    transition:  0.2s;
+}
+
+.links a:hover{
+    color: #fff;
+}
