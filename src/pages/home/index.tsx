@@ -12,7 +12,7 @@ import colegioVencer from '../../assets/images/colegio-vencer.png';
 
 import { SiGmail } from "react-icons/si";
 import { FaGithubAlt, FaWhatsapp, FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaFigma  } from "react-icons/fa";
-import { EffectFade } from 'swiper/modules';
+
 
 export function Home(){
 
