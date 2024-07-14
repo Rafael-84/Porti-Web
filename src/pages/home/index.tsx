@@ -12,6 +12,7 @@ import colegioVencer from '../../assets/images/colegio-vencer.png';
 
 import { SiGmail } from "react-icons/si";
 import { FaGithubAlt, FaWhatsapp, FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaFigma  } from "react-icons/fa";
+import { EffectFade } from 'swiper/modules';
 
 export function Home(){
 
@@ -56,11 +57,11 @@ export function Home(){
             <section className={styles.containerSlider} >
                 <h2 className={styles.titleProjetos}>Alguns dos meus projetos</h2>
                 <div className={styles.containerSlide}>
+                    
                     <Swiper
                         slidesPerView={1}
                         pagination={{clickable: true}}
-                        navigation
-                        effect={"fade"}                        
+                        navigation                                  
                     >
                         {data.map((item) => (
                             <SwiperSlide  key={item.id}>

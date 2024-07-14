@@ -12,7 +12,7 @@ import styles from './projeto.module.css'
 
 export function Projetos(){
 
-    const data = [
+    const images = [
         {id: "1", image: petLog, name: "Pet Log", url: "https://github.com/Rafael-84", descricao: "Sistema web para reserva de produtos pets"},
         {id: "2", image: dentalDev, name: "Dental Dev", url:"https://github.com/Rafael-84", descricao: "Page intitucional"},
         {id: "3", image: colegioVencer, name: "Colégio Vencer", url: "https://github.com/Rafael-84", descricao: "Sistema idealizado para trabalho de prototipação de tela para a faculdade, o objetivo era criar um sistema de reserva de equipamentos audio visuais para os professores do colegio Vencer (colegio fictício)..."},
@@ -24,7 +24,7 @@ export function Projetos(){
             <Header/>
             <h1 className={ styles.title } >Projetos</h1>
             <div className={ styles.containerSlider }>                
-                {data.map((item) => (
+                {images.map((item) => (
                     <div className={ styles.containerAll } key={item.id}>
                         <div className={ styles.containerImages } >
                             <Link to={item.url} target="_blank"><img className={styles.imageProjetos} src={item.image} /></Link>
